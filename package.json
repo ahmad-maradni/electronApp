@@ -1,10 +1,10 @@
 {
   "name": "bpjs-electron",
-  "version": "0.4.0",
+  "version": "0.6.0",
   "description": "BPJS Electron app",
   "main": "index.js",
-  "repository": "git@github.com:yamalight/bpjs-electron.git",
-  "author": "Tim Ermilov <yamalight@gmail.com>",
+  "repository": "git@github.com:ahmad-maradni/electronApp.git",
+  "author": "ahmad",
   "license": "MIT",
   "scripts": {
     "start": "NODE_ENV=test electron .",
@@ -18,9 +18,10 @@
     "test": "NODE_ENV=test mocha"
   },
   "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "babel-core": "^6.24.0",
     "babel-preset-env": "^1.3.2",
-    "babel-preset-react": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
     "babel-register": "^6.24.0",
     "electron": "^1.6.2",
     "electron-builder": "^19.26.3",
